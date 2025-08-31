@@ -1,54 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>weather-app</title>
-</head>
-<body>
-  <div class="card">
-    <div class="search">
-      <input type="text" placeholder="enter city name" spellcheck="false">
-      <button><img src="./images/search.png" alt=""></button>
-    </div>
-
-    <div class="error">
-      <p>invalid city name</p>
-    </div>
-
-    <div class="weather">
-      <img src="./images/rain.png" alt="" class="weather-icon">
-      <h1 class="temp">22°C</h1>
-      <h2 class="city">new york</h2>
-      <div class="details">
-        <div class="col">
-          <img src="./images/humidity1.png" alt="">
-
-          <div>
-            <p class="humidity">50%</p>
-            <p>humidity</p>
-          </div>
-        </div>
-
-         <div class="col">
-          <img src="./images/wind.jpg" alt="">
-          <div>
-            <p class="wind">15 km/h</p>
-            <p>wind speed</p>
-          </div>
-      </div>
-    </div>
-
-
-  </div>
-
-
-
-
-  <!-- <script>
-
-    const apiKey = "0c766df5fb31d773daebe25a36b7e9cb";
+const apiKey = "0c766df5fb31d773daebe25a36b7e9cb";
     const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 
     const searchBox = document.querySelector(".search input");
@@ -164,15 +114,3 @@
     searchBtn.addEventListener("click", ()=>{
       checkWeather(searchBox.value);
     })
-
-  
-
-  </script> -->
-
-  <script src="script.js"></script>
-
-
-
-
-</body>
-</html>
