@@ -106,3 +106,21 @@ body{
   margin-top: 14px;
   display: none;
 }
+
+
+/* 
+  @media (max-width: 400px) {
+      .temp {
+        font-size: 36px;
+      }
+      .city {
+        font-size: 22px; */
+
+          @media (max-width: 400px) {
+      .temp {
+        font-size: 36px;
+      }
+      .city {
+        font-size: 22px;
+      }
+    }
