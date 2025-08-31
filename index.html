@@ -68,16 +68,36 @@
       document.querySelector(".wind").innerHTML =data.wind.speed + " km/h";
 
       if(data.weather[0].main == "cloud"){
-        weatherIcon.src = "images/cloud.png"      }
-      
+        weatherIcon.src = "images/cloud.png";
+ 
     }
+    else if(data.weather[0].main == "clear"){
+      weatherIcon.src = "images/clear.png";
+
+    }
+
+    else if(data.weather[0].main == "rain"){
+      weatherIcon.src = "images/rain.png";
+
+    }
+    else if(data.weather[0].main == "drizzle"){
+      weatherIcon.src = "images/drizzle.png";
+
+    }
+
+    else if(data.weather[0].main == "mist"){
+      weatherIcon.src = "images/mist.png";
+    }
+
+
+
 
 
     searchBtn.addEventListener("click", ()=>{
       checkWeather(searchBox.value);
     })
 
-
+  }
 
   </script>
 
