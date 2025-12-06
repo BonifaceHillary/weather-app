@@ -35,7 +35,6 @@ const apiKey = "0c766df5fb31d773daebe25a36b7e9cb";
     }
     else if(data.weather[0].main == "Rain"){
       weatherIcon.src = "images/sun2.webp";
-
     }
     else if(data.weather[0].main == "Drizzle"){
       weatherIcon.src = "images/sun3.png";
