@@ -29,7 +29,6 @@ const apiKey = "0c766df5fb31d773daebe25a36b7e9cb";
 
       if(data.weather[0].main == "Clouds"){
         weatherIcon.src = "images/sun4.avif";
- 
     }
     else if(data.weather[0].main == "Clear"){
       weatherIcon.src = "images/sun1.png";
