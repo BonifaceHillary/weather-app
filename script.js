@@ -68,7 +68,6 @@ const apiKey = "0c766df5fb31d773daebe25a36b7e9cb";
     document.querySelector(".weather").style.display = "block";
 
      document.querySelector(".error").style.display = "none";
-
   }
     searchBtn.addEventListener("click", ()=>{
       checkWeather(searchBox.value);
