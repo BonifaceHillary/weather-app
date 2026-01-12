@@ -13,7 +13,6 @@ const apiKey = "0c766df5fb31d773daebe25a36b7e9cb";
         document.querySelector(".error").style.display = "block";
 
         document.querySelector(".weather").style.display = "none"
-
       }else{
           var data = await response.json();
 
