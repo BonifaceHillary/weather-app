@@ -16,7 +16,6 @@ const apiKey = "0c766df5fb31d773daebe25a36b7e9cb";
       }else{
           var data = await response.json();
       document.querySelector(".city").innerHTML = data.name;
-
       document.querySelector(".temp").innerHTML = Math.round(data.main.temp) + "°C";
       document.querySelector(".humidity").innerHTML = data.main.humidity + "%";
       document.querySelector(".wind").innerHTML =data.wind.speed + " km/h";
