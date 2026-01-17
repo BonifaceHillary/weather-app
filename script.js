@@ -57,7 +57,6 @@ const apiKey = "0c766df5fb31d773daebe25a36b7e9cb";
       weatherIcon.src = "images/sun5.png";
     }
     document.querySelector(".weather").style.display = "block";
-
      document.querySelector(".error").style.display = "none";
   }
     searchBtn.addEventListener("click", ()=>{
