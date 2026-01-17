@@ -8,7 +8,6 @@ const apiKey = "0c766df5fb31d773daebe25a36b7e9cb";
 
     async function checkWeather(city) {
       const response = await fetch(apiUrl + city + `&appid=${apiKey}`);
-
       if(response.status == 404){
         document.querySelector(".error").style.display = "block";
         document.querySelector(".weather").style.display = "none"
