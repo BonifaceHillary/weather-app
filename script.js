@@ -34,7 +34,6 @@ const apiKey = "0c766df5fb31d773daebe25a36b7e9cb";
     else if(data.weather[0].main == "Mist"){
       weatherIcon.src = "images/sun5.png";
     }
-
     document.querySelector(".weather").style.display = "block";
       }
       var data = await response.json();
